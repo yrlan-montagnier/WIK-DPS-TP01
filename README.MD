@@ -9,6 +9,9 @@ npm install express
 npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6 --module commonjs --allowJs true --noImplicitAny true
 mkdir src   // Dossier SRC qui contiendra nos fichiers .ts
 ```
+Voici l'architecture du projet une fois les paquets installés et le fichier index.ts créé.
+![](/img/Architecture_Projet.png)
+
 ## Développer une API qui retourne au format JSON les headers de la requête quand il y une requête HTTP GET sur /ping
 Quand on se rend sur `localhost:8080/ping`, cela récupère les headers et les envoie en réponse de la requête, ce qui les ajoute dans Application/Json
 ```
