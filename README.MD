@@ -48,4 +48,5 @@ Ces deux commandes sont à lancer dans le terminal et permettent de build le pro
 npx tsc             // Build le programme, génère le index.js
 node build/index.js // Permet de lancer le serveur
 ```
-On se rend ensuite sur localhost:8080.
+On se rend ensuite sur localhost:8080 pour accéder au serveur web.
+Localhost:8080/Ping pour tester les pings et vérifier dans application/Json qu'il y'a bien les headers. 
