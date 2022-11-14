@@ -16,7 +16,7 @@ app.get('/ping', (req, res) => {
     res.send(req.headers);
 })
 ```
-![Ping](img/ping.png)
+![Ping](img/Ping.png)
 
 ## Le serveur doit écouter sur un port configurable via la variable d'environnement : PING_LISTEN_PORT ou par défaut sur un port au choix
 Ici, j'ai créé une variable ``PING_LISTEN_PORT`` dont la valeur est modifiable (INT), qui permet de changer le port sur lequel le serveur écoute.
@@ -45,3 +45,4 @@ Ces deux commandes sont à lancer dans le terminal et permettent de build le pro
 npx tsc             // Build le programme, génère le index.js
 node build/index.js // Permet de lancer le serveur
 ```
+On se rend ensuite sur localhost:8080.
