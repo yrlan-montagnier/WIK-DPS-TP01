@@ -10,6 +10,7 @@ npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModul
 mkdir src   // Dossier SRC qui contiendra nos fichiers .ts
 ```
 Voici l'architecture du projet une fois les paquets installés et le fichier index.ts créé.
+
 ![](/img/Architecture_Projet.png)
 
 ## Développer une API qui retourne au format JSON les headers de la requête quand il y une requête HTTP GET sur /ping
